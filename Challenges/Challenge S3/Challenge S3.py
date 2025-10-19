@@ -1,7 +1,6 @@
 from ModulesChallenge import ModuleCH
 import random2
 
-print(random2.randint(10,12))
 frist_num = int(input("Enter first number: "))
 second_num = int(input("Enter second number: "))
 opertion = input("Enter operation (+, -, /, *,power,sqr,random): ")
