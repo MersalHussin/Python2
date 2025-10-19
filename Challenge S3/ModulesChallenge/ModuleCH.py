@@ -1,3 +1,5 @@
+import math
+import random2
 def addition(a,b):
     return a+b
 def subtraction(a,b):
@@ -6,3 +8,12 @@ def multiplication(a,b):
     return a*b
 def division(a,b):
     return a/b
+def power(a,b):
+    return math.pow(a,b)
+def sqr(a,b):
+    return math.sqrt(a)
+def random(a,b):
+    if a>b:
+        return random2.randint(b,a)
+    else:
+        return random2.randint(a,b)
